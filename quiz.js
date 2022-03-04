@@ -100,15 +100,14 @@ function calculateResults() {
         }
     }
     let total = Number(q1Value) + Number(q2Value) + Number(q3Value) + Number(q4Value) + Number(q5Value);
-    let result = total / 5;
 
 
-if (result === 3) {
+if (total === 15) {
   msg = "Awesome! You got all!";
-} else if (result >= 2.6) {
+} else if (total >= 12) {
   msg = "Bravo, You got 4 out of 5";
 } else {
-  msg = "Let's do it, you can do better";
+  msg = "You can be better, Let's try again";
 }
 
 
