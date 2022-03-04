@@ -1,0 +1,94 @@
+body{
+text-align: center;
+}
+
+h1{
+  color: rgb(112, 91, 255);
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+  font-style: italic;
+}
+
+#results{
+  display:none;
+  width:750px;
+  height: 400px;
+  font-size: xx-large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#question1, #question2, #question3, #question4, #question5 {
+  display:none;
+  width:750px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+div#title{
+  background:linear-gradient(60deg, white, black);
+}
+
+div#intro{
+  background-image: url("earth.jpg");
+  height: 400px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+div#question1{
+      background-image: url("sky.jpg");
+      height: 400px; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+}
+
+div#question2{
+  background-image: url("cloud.jpg");
+  
+  height: 400px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size:cover
+}
+
+div#question3{
+  background-image: url("animals.jpg");
+  height: 400px;  
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+div#question4{
+  background-image: url("mountain.jpg");
+  height: 400px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+div#question5{
+  background-image: url("worldmap.jpg");
+  height: 400px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+#quizarea
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:500px;
+  width:800px;
+  border-width: 2px;
+  border-style: dashed;
+}

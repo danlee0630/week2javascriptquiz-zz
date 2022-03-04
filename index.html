@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+      <div id="quizarea">
+        <div id="title" >
+          <div class="col">
+            <p><h1><u>Your Knowhow to our Earth</u></h1></p>
+    </div>
+        <div id="questionarea">
+            <div id="intro" class="justify-content-center mx-auto">
+                <br /><br />
+                <h2 class="text-center">Are you ready?</h2>
+                <br /><br />
+                <p><input type="button" value="Let's Go!"class="btn btn-success text-center" onclick="startQuiz()"/></p>
+              </div>
+<form id="quizform">
+    
+  <div id="question1" class="mx-auto">
+    <div class="row justify-content-center" >
+        <h2 class="text-center">Why the Sky is blue?</h2>
+    </div>
+    <div class="row">
+      &nbsp;
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest1" id="a2" value=2 />
+      <label for="a2" class="text-center">A) It is due to the "Atmospheric refraction" of the Sun.</label>
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest1" id="a1" value=1 />
+      <label for="a1">B) It is due to the "Atmospheric reflection" of the Sun.</label>
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest1" id="a3" value=3  />
+      <label for="a3">C) It is due to "Rayleigh Scattering.</label>
+    </div>
+    <div class="row justify-content-center">
+        <input type="radio" name="quest1" id="a0" value=0  />
+        <label for="a0">D) None of above</label>
+      </div>
+    <div class="row" class="justify-content-center">
+      <input type="button" value="Next"class="btn btn-success mx-auto" onclick="question2()"/>
+    </div>
+  </div>
+
+  <div id="question2">
+    <div class="row justify-content-center">
+        <h2 class="text-center">Why are clouds white?</h2>
+    </div>
+    <div class="row">
+      &nbsp;
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest2" id="a2" value=2 />
+      <label for="a2" class="text-center">A) It is because the atmosphere refract all other visable colors except white.</label>
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest2" id="a1" value=1 />
+      <label for="a1">B) It is because the water is clear, if form by dirty water, clouds will be black.</label>
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest2" id="a3" value=3 />
+      <label for="a3">C) It is because the "Mie Scattering".</label>
+    </div>
+    <div class="row justify-content-center">
+        <input type="radio" name="quest2" id="a0" value=0  />
+        <label for="a0">D) None of above</label>
+      </div>
+    <div class="row justify-content-center">
+        <input type="button" value="Next"class="btn btn-success mx-auto" onclick="question3()"/>
+    </div>
+    </div>
+
+    <div id="question3">
+        <div class="row justify-content-center">
+            <h2 class="text-center">Which one is the largest <strong>ANIMAL</strong> on the Earth?</h2>
+        </div>
+        <div class="row">
+          &nbsp;
+        </div>
+        <div class="row justify-content-center">
+          <input type="radio" name="quest3" id="a2" value=2 />
+          <label for="a2" class="text-center">A) Elephant</label>
+        </div>
+        <div class="row justify-content-center">
+          <input type="radio" name="quest3" id="a3" value=3 />
+          <label for="a3">B) Blue Whale</label>
+        </div>
+        <div class="row justify-content-center">
+          <input type="radio" name="quest3" id="a1" value=1 />
+          <label for="a1">C) Colossal Squid</label>
+        </div>
+        <div class="row justify-content-center">
+            <input type="radio" name="quest3" id="a0" value=0  />
+            <label for="a0">D) None of above</label>
+          </div>
+        <div class="row justify-content-center">
+            <input type="button" value="Next"class="btn btn-success mx-auto" onclick="question4()"/>
+        </div>
+        </div>
+
+        <div id="question4">
+            <div class="row justify-content-center">
+                <h2 class="text-center">Which one is the Tallest Montain on the Earth?</h2>
+            </div>
+            <div class="row">
+              &nbsp;
+            </div>
+            <div class="row justify-content-center">
+              <input type="radio" name="quest4" id="a3" value=3 />
+              <label for="a3" class="text-center">A) Mount Everest</label>
+            </div>
+            <div class="row justify-content-center">
+              <input type="radio" name="quest4" id="a2" value=2 />
+              <label for="a2">B) K2 (Chogori / Qogir)</label>
+            </div>
+            <div class="row justify-content-center">
+              <input type="radio" name="quest4" id="a1" value=1 />
+              <label for="a1">C) Kanchenjunga</label>
+            </div>
+            <div class="row justify-content-center">
+                <input type="radio" name="quest4" id="a0" value=0  />
+                <label for="a0">D) None of above</label>
+              </div>
+            <div class="row justify-content-center">
+                <input type="button" value="Next"class="btn btn-success mx-auto" onclick="question5()"/>
+            </div>
+            </div>
+  <div id="question5">
+    <div class="row justify-content-center">
+        <h2 class="text-center">There are ... Oceans and ... Continents on the Earth.</h2>
+        <h3 text-align="left" class="text-left">(Please select the appopriate ONE)</h3>
+    </div>
+    <div class="row">
+      &nbsp;
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest5" id="a2" value=2 />
+      <label for="a2" class="text-center">A) 7 ... 5 </label>
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest5" id="a1" value=1 />
+      <label for="a1">B) 6 ... 7 </label>
+    </div>
+    <div class="row justify-content-center">
+      <input type="radio" name="quest5" id="a3" value=3 />
+      <label for="a3">C) 5 ... 7 </label>
+    </div>
+    <div class="row justify-content-center">
+        <input type="radio" name="quest5" id="a0" value=0  />
+        <label for="a0">D) 9 ... 8</label>
+      </div>
+    <div class="row justify-content-center">
+      <input type="button" value="Results"class="btn btn-success mx-auto" onclick="results()"/>
+    </div>
+  </div>
+  </form>
+  <!--Results-->
+  <div id="results" class="justify-content-center mx-auto">
+    <br /><br />
+    <p class="text-center" id="result"></p>
+    <div> <input type="button" value="Try Again"class="btn btn-success text-center" onclick="startQuiz()"/></div>
+  </div>
+</div>
+</div>
+</div>
+<!-- link to external JavaScript-->
+<script src="quiz.js" type="text/javascript"></script>
+</body>
+</html>
